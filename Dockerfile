@@ -44,7 +44,9 @@ RUN yum -y install epel-release && \
     mammoth \
     pymongo \
     requests==2.13.0 \
-    jsondiff
+    jsondiff \
+    paramiko \
+    crontab
 
 # Docker versions Env Variables
 ENV DOCKER_ENGINE_VERSION=1.10.3-1.el7.centos
